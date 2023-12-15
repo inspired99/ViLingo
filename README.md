@@ -1,14 +1,14 @@
 # ViLingo
 
-*ViLingo* is a pipeline with webservice for automated translating videos from Russian language into *12* foreign languages.
+**ViLingo** is a pipeline with webservice for automated translating videos from Russian language into **12** foreign languages.
 
 
-The following models were used:
-* Demucs - for separating voices from other sounds (dualization task)
-* WhisperX - for performing STT and getting timestamps for each phrase
-* NLLB-200 - for translation of the text
-* Wav2Lip - syncing lips of speaker with the voice 
-* Coqui xtts_v2 - for TTS and voice cloning of the speaker
+The following ML models were used:
+* **Demucs** - for separating voices from other sounds (dualization task)
+* **WhisperX** - for performing STT and getting timestamps for each phrase
+* **NLLB-200** - for translation of the text
+* **Wav2Lip** - syncing lips of speaker with the voice 
+* **Coqui xtts_v2** - for TTS and voice cloning of the speaker
 
 Note, that each phrase is processed separately, which helps to make pronounce each phrase with the voice of 
 the corresponding speaker.
@@ -26,8 +26,6 @@ python3.10 main.py [path_to_video] [language]
 ```
 
 Language can be `en` or `fr`, for example.
-
-# Requirements
 
 ## System
 
@@ -51,9 +49,6 @@ python3.10 -m pip install pydub==0.25.1
 sudo apt install ffmpeg
 ```
 
-Several models, that are used in our project, are having dependency conflicts. As a workaround we suggest installing
-them sequentially without requirements.txt (that worked for us).
-
 # Hardware requirements
 
-The code was tested on with Tesla-V100 1x32GB.
+The code was tested on with Tesla-V100 1x32GB on remote server.
