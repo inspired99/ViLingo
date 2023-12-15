@@ -60,4 +60,4 @@ sudo apt install ffmpeg
 
 # Hardware requirements
 
-The code was tested on with Tesla-V100 1x32GB on remote server.
+The code was tested with Tesla-V100 1x32GB on remote server.
