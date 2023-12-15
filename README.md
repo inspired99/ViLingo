@@ -13,6 +13,9 @@ The following ML models were used:
 Note, that each phrase is processed separately, which helps to make pronounce each phrase with the voice of 
 the corresponding speaker.
 
+<img width="1259" alt="Снимок экрана 2023-12-15 в 03 43 09" src="https://github.com/inspired99/ViLingo/assets/64794482/f4f7e612-0cd1-4a33-a6cd-ea5c1224b39b">
+
+
 # Examples
 
 Please find some examples of our work
