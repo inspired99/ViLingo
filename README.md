@@ -1,6 +1,6 @@
 # ViLingo
 
-**ViLingo** is a pipeline with webservice for automated translating videos from Russian language into **12** foreign languages.
+**ViLingo** is a complete pipeline for automated translating videos from Russian language into **12** foreign languages (German, English, Italian, French, Turkish, Japanese, Chinese, Spanish, Portugese, Polish, Czech, Danish)
 
 
 The following ML models were used:
@@ -18,7 +18,11 @@ the corresponding speaker.
 
 # Examples
 
-Please find some examples of our work
+https://github.com/inspired99/ViLingo/assets/64794482/22d61c6b-20f0-42ea-9d68-0d43d7dc5c37
+
+
+
+Please find others examples of our work
 [there](https://drive.google.com/drive/folders/1LqOT3hCsz6AI9shP1lP4ya5DxC1VzaW-?usp=drive_link).
 
 # Running
