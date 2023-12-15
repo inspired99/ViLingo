@@ -1,21 +1,17 @@
 # ViLingo
 
-The repository contains pipeline for translating russian video into a subset of most popular
-languages, such as english, french, italian, portuguese...
+*ViLingo* is a pipeline with webservice for automated translating videos from Russian language into *12* foreign languages.
+
 
 The following models were used:
-* Demucs - for separating vocal from other sounds
-* Whisper - for performing STT and getting timestamps for each phrase
+* Demucs - for separating voices from other sounds (dualization task)
+* WhisperX - for performing STT and getting timestamps for each phrase
 * NLLB-200 - for translation of the text
-* Coqui xtts_v2 - for TTS and voice cloning
+* Wav2Lip - syncing lips of speaker with the voice 
+* Coqui xtts_v2 - for TTS and voice cloning of the speaker
 
 Note, that each phrase is processed separately, which helps to make pronounce each phrase with the voice of 
 the corresponding speaker.
-
-Additionally, we tried to implement and test lipsync, but it wasn't fully integrated in our pipeline.
-The reason for this is that model doesn't perform well in case of multiple people on a video.
-The model implementation you can find in branch `lipsync`.
-
 
 # Examples
 
