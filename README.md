@@ -18,8 +18,10 @@ the corresponding speaker.
 
 # Examples
 
-https://github.com/inspired99/ViLingo/assets/64794482/22d61c6b-20f0-42ea-9d68-0d43d7dc5c37
 
+Original | Translated
+:-: | :-:
+<video src='https://github.com/inspired99/ViLingo/assets/64794482/7628af57-c6da-4ded-a3f5-92c4eab79838' width=180/> | <video src='https://github.com/inspired99/ViLingo/assets/64794482/2f911bd3-8dc5-444c-abf4-004bd7b6a10d' width=180/>
 
 
 Please find others examples of our work
